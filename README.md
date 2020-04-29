@@ -1,2 +1,15 @@
 # system_calls
-seminar on examining system calls using the Strace program
+Seminar about examining system calls using the Strace program
+
+#Rafał Hudaszek programowanie niskopoziomowe, jądro sytemu Linux.
+
+Wszystkie informacje potrzebne do rozwiązania zadań zawarte są w pliku .pdf
+
+Bibliografia:
+1) https://pl.wikipedia.org/wiki/Strace
+
+2) https://pl.wikipedia.org/wiki/Wywo%C5%82ania_systemowe_Uniksa
+
+3) https://www.thegeekstuff.com/2011/11/strace-examples/
+
+4) https://www.tecmint.com/strace-commands-for-troubleshooting-and-debugging-linux/
