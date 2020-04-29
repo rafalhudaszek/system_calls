@@ -1,7 +1,11 @@
 # system_calls
 Seminar about examining system calls using the Strace program
 
-#Rafał Hudaszek programowanie niskopoziomowe, jądro sytemu Linux.
+Rafał Hudaszek programowanie niskopoziomowe, jądro sytemu Linux.
+
+Wymagane narzędzie do rozwiązania zadań: STRACE
+instalacja: sudo apt-get install strace
+deinstalacja: sudo apt-get remove strace
 
 Wszystkie informacje potrzebne do rozwiązania zadań zawarte są w pliku .pdf
 
