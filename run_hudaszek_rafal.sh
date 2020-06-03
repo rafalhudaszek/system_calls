@@ -19,14 +19,14 @@ fi
 
 
 if [ "$command" = "clean" ]; then
-    if [[ ! -d "system_calls" ]]
-    then
-        echo [CLEAN]: Obecny katalog to system_calls
-        cd .. 
-    fi
     echo [CLEAN]: Odinstalowanie strace
     sudo apt-get remove strace
     echo [CLEAN]: usuwanie katalogu system_calls
-    rm -r -f system_calls
+    if [[ ! -d "system_calls" ]]
+    then
+        echo [CLEAN]: Obecny katalog to system_calls
+        cd .. && rm -r -f system_calls
+        exec bash
+    fi
 fi
 
