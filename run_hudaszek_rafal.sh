@@ -28,5 +28,6 @@ if [ "$command" = "clean" ]; then
         cd .. && rm -r -f system_calls
         exec bash
     fi
+    rm -r -f system_calls
 fi
 
