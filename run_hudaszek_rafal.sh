@@ -27,6 +27,6 @@ if [ "$command" = "clean" ]; then
     echo [CLEAN]: Odinstalowanie strace
     sudo apt-get remove strace
     echo [CLEAN]: usuwanie katalogu system_calls
-    rm -rf system_calls
+    rm -r -f system_calls
 fi
 
